@@ -1,0 +1,2879 @@
+(this["webpackJsonpgreen"] = this["webpackJsonpgreen"] || []).push([[25],{
+
+/***/ "./src/components/Common/Scrollable.js":
+/*!*********************************************!*\
+  !*** ./src/components/Common/Scrollable.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var jquery_slimscroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! jquery-slimscroll */ "./node_modules/jquery-slimscroll/jquery.slimscroll.js");
+/* harmony import */ var jquery_slimscroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(jquery_slimscroll__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "J:\\OSC2021\\code\\Template\\reactjs-seed\\reactjs-seed\\src\\components\\Common\\Scrollable.js",
+    _this = undefined;
+
+// SLIMSCROLL
+// -----------------------------------
+
+
+ // Slimscroll
+
+
+/**
+ * Wrapper for jquery-slimscroll plugin
+ */
+
+
+
+var Scrollable = function Scrollable(props) {
+  var init = function init(node) {
+    return jquery__WEBPACK_IMPORTED_MODULE_3___default()(node).slimScroll({
+      height: props.height
+    });
+  };
+
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])(Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: init
+  }, props), {}, {
+    children: props.children
+  }), void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 20,
+    columnNumber: 9
+  }, _this);
+};
+
+_c = Scrollable;
+Scrollable.propTypes = {
+  /** height of the element */
+  height: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string
+};
+Scrollable.defaultProps = {
+  height: 250
+};
+/* harmony default export */ __webpack_exports__["default"] = (Scrollable);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Scrollable");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Common/Sparklines.js":
+/*!*********************************************!*\
+  !*** ./src/components/Common/Sparklines.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Sparkline; });
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var jquery_sparkline_jquery_sparkline_min_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! jquery-sparkline/jquery.sparkline.min.js */ "./node_modules/jquery-sparkline/jquery.sparkline.min.js");
+/* harmony import */ var jquery_sparkline_jquery_sparkline_min_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(jquery_sparkline_jquery_sparkline_min_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+
+
+var _jsxFileName = "J:\\OSC2021\\code\\Template\\reactjs-seed\\reactjs-seed\\src\\components\\Common\\Sparklines.js";
+// SPARKLINE
+// -----------------------------------
+
+
+ // Sparklines
+
+
+
+var RESIZE_EVENT = 'resize.sparkline';
+/**
+ * Wrapper for for jquery-sparkline plugin
+ */
+
+var Sparkline = /*#__PURE__*/function (_Component) {
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Sparkline, _Component);
+
+  var _super = Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_4__["default"])(Sparkline);
+
+  function Sparkline() {
+    var _this;
+
+    Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Sparkline);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+    _this.state = {
+      values: _this.props.values,
+      options: _this.props.options
+    };
+
+    _this.setRef = function (node) {
+      _this.element = node;
+    };
+
+    return _this;
+  }
+
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Sparkline, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      this.renderChart(); // allow responsive
+
+      if (this.state.options.resize) {
+        jquery__WEBPACK_IMPORTED_MODULE_7___default()(window).on(RESIZE_EVENT, function () {
+          _this2.renderChart();
+        });
+      }
+    }
+  }, {
+    key: "getNormalizedParams",
+    value: function getNormalizedParams() {
+      var _this$state = this.state,
+          options = _this$state.options,
+          values = _this$state.values;
+      options.disableHiddenCheck = true; // allow draw when initially is not visible
+
+      options.type = options.type || 'bar'; // default chart is bar
+
+      values = Array.isArray(values) ? values : values.split(','); // support array of csv strings
+
+      return {
+        options: options,
+        values: values
+      };
+    }
+  }, {
+    key: "renderChart",
+    value: function renderChart() {
+      var _this$getNormalizedPa = this.getNormalizedParams(),
+          options = _this$getNormalizedPa.options,
+          values = _this$getNormalizedPa.values; // init sparkline
+
+
+      jquery__WEBPACK_IMPORTED_MODULE_7___default()(this.element).sparkline(values, options);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      jquery__WEBPACK_IMPORTED_MODULE_7___default()(window).off(RESIZE_EVENT);
+      jquery__WEBPACK_IMPORTED_MODULE_7___default()(this.element).sparkline('destroy');
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var Tag = this.props.tag;
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(Tag, Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        ref: this.setRef
+      }, this.props), void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 76,
+        columnNumber: 13
+      }, this);
+    }
+  }]);
+
+  return Sparkline;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+Sparkline.propTypes = {
+  /** sparkline options object */
+  options: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.object.isRequired,
+
+  /** tag to use, defaults to div */
+  tag: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.string,
+
+  /** values to display, allows array or csv string */
+  values: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.string.isRequired, prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.array.isRequired])
+};
+Sparkline.defaultProps = {
+  options: {},
+  tag: 'div'
+};
+
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Machine/ActiviteMachine.js":
+/*!***************************************************!*\
+  !*** ./src/components/Machine/ActiviteMachine.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../firebase */ "./src/firebase.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert */ "./node_modules/sweetalert/dist/sweetalert.min.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Common/Sparklines */ "./src/components/Common/Sparklines.js");
+/* harmony import */ var _Common_Scrollable__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Common/Scrollable */ "./src/components/Common/Scrollable.js");
+/* harmony import */ var _Layout_ContentWrapper__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Layout/ContentWrapper */ "./src/components/Layout/ContentWrapper.js");
+/* harmony import */ var _HeadingMenu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./HeadingMenu */ "./src/components/Machine/HeadingMenu.js");
+/* harmony import */ var _InfoMachine__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./InfoMachine */ "./src/components/Machine/InfoMachine.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+
+var _jsxFileName = "J:\\OSC2021\\code\\Template\\reactjs-seed\\reactjs-seed\\src\\components\\Machine\\ActiviteMachine.js";
+
+
+
+
+
+
+
+
+
+
+
+
+var ActiviteMachine = /*#__PURE__*/function (_Component) {
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(ActiviteMachine, _Component);
+
+  var _super = Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__["default"])(ActiviteMachine);
+
+  function ActiviteMachine(props) {
+    Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ActiviteMachine);
+
+    return _super.call(this, props);
+  }
+
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ActiviteMachine, [{
+    key: "render",
+    value: function render() {
+      var _this$props$etat$mach = this.props.etat.machine,
+          nom = _this$props$etat$mach.nom,
+          zone = _this$props$etat$mach.zone,
+          localite = _this$props$etat$mach.localite,
+          level = _this$props$etat$mach.level,
+          created = _this$props$etat$mach.created,
+          status = _this$props$etat$mach.status;
+
+      var _Object = new Object(localite),
+          pays = _Object.pays,
+          lieu = _Object.lieu,
+          ville = _Object.ville,
+          quartier = _Object.quartier;
+
+      var _this$props$etat$mode = this.props.etat.modele,
+          libelle = _this$props$etat$mode.libelle,
+          description = _this$props$etat$mode.description,
+          dimension = _this$props$etat$mode.dimension,
+          capacite = _this$props$etat$mode.capacite;
+
+      var _Object2 = new Object(dimension),
+          longueur = _Object2.longueur,
+          largeur = _Object2.largeur,
+          hauteur = _Object2.hauteur;
+
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+        className: "pt-3 mb-3",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+          className: "card card-default",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+            className: "card-header",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "px-2 float-right badge badge-danger",
+              children: "5"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 46,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "px-2 mr-2 float-right badge badge-success",
+              children: "12"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 47,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "card-title",
+              children: "Alertes"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 48,
+              columnNumber: 33
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 45,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])(_Common_Scrollable__WEBPACK_IMPORTED_MODULE_10__["default"], {
+            height: "180",
+            className: "list-group",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "list-group-item list-group-item-action",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                className: "media",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                  className: "fas fa-sign-in-alt fa-2x text-info"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 55,
+                  columnNumber: 41
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                  className: "media-body text-truncate",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+                    className: "mb-1",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("strong", {
+                      className: "text-primary text-bold",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                        children: "Depot"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 59,
+                        columnNumber: 53
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 58,
+                      columnNumber: 49
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 57,
+                    columnNumber: 45
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+                    className: "mb-1 text-sm",
+                    children: "D\xE9pot de 20 bouteilles"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 62,
+                    columnNumber: 45
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 56,
+                  columnNumber: 41
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                  className: "ml-auto",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("small", {
+                    className: "text-muted ml-2",
+                    children: " 2h "
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 65,
+                    columnNumber: 45
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 64,
+                  columnNumber: 41
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 54,
+                columnNumber: 37
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 53,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "list-group-item list-group-item-action",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                className: "media",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                  className: "fas fa-thermometer-full fa-2x text-danger"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 73,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                  className: "media-body text-truncate",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+                    className: "mb-1",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("strong", {
+                      className: "text-primary",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                        children: "Temp\xE9rature anormale"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 77,
+                        columnNumber: 53
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 76,
+                      columnNumber: 49
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 75,
+                    columnNumber: 45
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+                    className: "mb-1 text-sm",
+                    children: "La temp\xE9rature au sein de la machine \xE0 d\xE9pass\xE9 les 35\xB0C"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 80,
+                    columnNumber: 45
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 74,
+                  columnNumber: 41
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                  className: "ml-auto",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("small", {
+                    className: "text-muted ml-2",
+                    children: "3h"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 83,
+                    columnNumber: 45
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 82,
+                  columnNumber: 41
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 72,
+                columnNumber: 37
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 71,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "list-group-item list-group-item-action",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                className: "media",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                  className: "fas fa-sign-in-alt fa-2x text-info"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 91,
+                  columnNumber: 41
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                  className: "media-body text-truncate",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+                    className: "mb-1",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("strong", {
+                      className: "text-primary text-bold",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                        children: "Depot"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 95,
+                        columnNumber: 53
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 94,
+                      columnNumber: 49
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 93,
+                    columnNumber: 45
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("p", {
+                    className: "mb-1 text-sm",
+                    children: "D\xE9pot de 35 bouteilles"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 98,
+                    columnNumber: 45
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 92,
+                  columnNumber: 41
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+                  className: "ml-auto",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("small", {
+                    className: "text-muted ml-2",
+                    children: " 2h "
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 101,
+                    columnNumber: 45
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 100,
+                  columnNumber: 41
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 90,
+                columnNumber: 37
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 89,
+              columnNumber: 33
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 51,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+            className: "card-footer",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("div", {
+              className: "input-group",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("input", {
+                className: "form-control form-control-sm",
+                type: "text",
+                placeholder: "Search message .."
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 111,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("span", {
+                className: "input-group-btn",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("button", {
+                  className: "btn btn-secondary btn-sm",
+                  type: "submit",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_14__["jsxDEV"])("i", {
+                    className: "fa fa-search"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 114,
+                    columnNumber: 45
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 113,
+                  columnNumber: 41
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 112,
+                columnNumber: 37
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 110,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 109,
+            columnNumber: 29
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 29
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 13
+      }, this);
+    }
+  }]);
+
+  return ActiviteMachine;
+}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (ActiviteMachine);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Machine/InfoMachine.js":
+/*!***********************************************!*\
+  !*** ./src/components/Machine/InfoMachine.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../firebase */ "./src/firebase.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert */ "./node_modules/sweetalert/dist/sweetalert.min.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Common/Sparklines */ "./src/components/Common/Sparklines.js");
+/* harmony import */ var _Common_Scrollable__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Common/Scrollable */ "./src/components/Common/Scrollable.js");
+/* harmony import */ var _Layout_ContentWrapper__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Layout/ContentWrapper */ "./src/components/Layout/ContentWrapper.js");
+/* harmony import */ var _HeadingMenu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./HeadingMenu */ "./src/components/Machine/HeadingMenu.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+
+var _jsxFileName = "J:\\OSC2021\\code\\Template\\reactjs-seed\\reactjs-seed\\src\\components\\Machine\\InfoMachine.js";
+
+
+
+
+
+
+
+
+
+/**Affiche les informations générales d'une machine */
+
+
+
+var InfoMachine = /*#__PURE__*/function (_Component) {
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(InfoMachine, _Component);
+
+  var _super = Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__["default"])(InfoMachine);
+
+  function InfoMachine(props) {
+    Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, InfoMachine);
+
+    return _super.call(this, props);
+  }
+
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(InfoMachine, [{
+    key: "render",
+    value: function render() {
+      var _this$props$etat$mach = this.props.etat.machine,
+          nom = _this$props$etat$mach.nom,
+          zone = _this$props$etat$mach.zone,
+          localite = _this$props$etat$mach.localite,
+          level = _this$props$etat$mach.level,
+          created = _this$props$etat$mach.created,
+          status = _this$props$etat$mach.status;
+
+      var _Object = new Object(localite),
+          pays = _Object.pays,
+          lieu = _Object.lieu,
+          ville = _Object.ville,
+          quartier = _Object.quartier;
+
+      var _this$props$etat$mode = this.props.etat.modele,
+          libelle = _this$props$etat$mode.libelle,
+          description = _this$props$etat$mode.description,
+          dimension = _this$props$etat$mode.dimension,
+          capacite = _this$props$etat$mode.capacite;
+
+      var _Object2 = new Object(dimension),
+          longueur = _Object2.longueur,
+          largeur = _Object2.largeur,
+          hauteur = _Object2.hauteur;
+
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+        className: "",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+          className: "card b",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+            className: "card-header",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+              className: "float-right mt-2",
+              children: status ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                className: "badge badge-info",
+                children: "disponible"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 50,
+                columnNumber: 37
+              }, this) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                className: "badge badge-danger",
+                children: "indisponible"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 52,
+                columnNumber: 37
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 48,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("h4", {
+              className: "my-2",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
+                children: [" ", nom, " "]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 56,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 55,
+              columnNumber: 29
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 47,
+            columnNumber: 25
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+            className: "card-body bb bt",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("h4", {
+              className: "bg-gray-dark pl-2",
+              children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                className: "icon-tag"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 61,
+                columnNumber: 64
+              }, this), " Emplacement"]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 61,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+              className: "float-left mr-5",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("address", {
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                  children: [lieu, ", ", quartier, "  "]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 64,
+                  columnNumber: 37
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("br", {}, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 65,
+                  columnNumber: 37
+                }, this), " ", ville, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("br", {}, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 66,
+                  columnNumber: 37
+                }, this), " ", pays]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 63,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 62,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+              className: "float-left pl-5 mr-5",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("img", {
+                src: "img/box/trash_box.jpg",
+                alt: "poubelle"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 70,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 69,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+              className: "float-left pl-5",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 74,
+                columnNumber: 36
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                className: "media",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "align-self-start mr-2",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
+                    className: "fa-stack",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                      className: "fa fa-circle fa-stack-2x text-purple"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 78,
+                      columnNumber: 45
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                      className: "fas fa-map-marker-alt fa-stack-1x fa-inverse text-white"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 79,
+                      columnNumber: 45
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 77,
+                    columnNumber: 42
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 76,
+                  columnNumber: 39
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "media-body text-truncate",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                    className: "mb-1",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("a", {
+                      className: "text-purple m-0",
+                      href: "",
+                      children: "Afficher la machine sur la carte"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 83,
+                      columnNumber: 62
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 83,
+                    columnNumber: 42
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 82,
+                  columnNumber: 39
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 75,
+                columnNumber: 36
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 87,
+                columnNumber: 36
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 88,
+                columnNumber: 36
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                className: "media",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "align-self-start mr-2",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
+                    className: "fa-stack",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                      className: "fa fa-circle fa-stack-2x text-info"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 92,
+                      columnNumber: 45
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                      className: "fas fa-paper-plane fa-stack-1x fa-inverse text-white"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 93,
+                      columnNumber: 45
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 91,
+                    columnNumber: 42
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 90,
+                  columnNumber: 39
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "media-body text-truncate",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                    className: "mb-1",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("a", {
+                      className: "text-info m-0",
+                      href: "",
+                      children: "Obtenir l'itin\xE9raire"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 97,
+                      columnNumber: 65
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 97,
+                    columnNumber: 45
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 96,
+                  columnNumber: 39
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 89,
+                columnNumber: 36
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 100,
+                columnNumber: 36
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 73,
+              columnNumber: 29
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 60,
+            columnNumber: 25
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+            className: "card-body",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("h4", {
+              className: "bg-gray-dark pl-2",
+              children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                className: "icon-tag"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 105,
+                columnNumber: 64
+              }, this), " Mod\xE8le "]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 105,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+                xl: "8",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("form", {
+                  className: "form-horizontal",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "form-group row",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                      className: "text-bold col-xl-2 col-md-3 col-4 col-form-label text-right",
+                      htmlFor: "nom",
+                      children: "Libell\xE9"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 111,
+                      columnNumber: 37
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "col-xl-10 col-md-9 col-8",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("input", {
+                        className: "form-control",
+                        id: "nom",
+                        type: "text",
+                        placeholder: "",
+                        value: libelle
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 113,
+                        columnNumber: 41
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 112,
+                      columnNumber: 37
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 110,
+                    columnNumber: 33
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "form-group row",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                      className: "text-bold col-xl-2 col-md-3 col-4 col-form-label text-right",
+                      htmlFor: "description",
+                      children: " Description "
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 118,
+                      columnNumber: 37
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "col-xl-10 col-md-9 col-8",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("input", {
+                        className: "form-control",
+                        id: "description",
+                        type: "text",
+                        value: description
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 120,
+                        columnNumber: 41
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 119,
+                      columnNumber: 37
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 117,
+                    columnNumber: 33
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "form-group row",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                      className: "text-bold col-xl-2 col-md-3 col-4 col-form-label text-right",
+                      htmlFor: "capacite",
+                      children: "Capacite"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 125,
+                      columnNumber: 37
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "col-xl-10 col-md-9 col-8",
+                      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("input", {
+                        className: "form-control",
+                        id: "capacite",
+                        type: "text",
+                        value: capacite
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 127,
+                        columnNumber: 41
+                      }, this)
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 126,
+                      columnNumber: 37
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 124,
+                    columnNumber: 33
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "form-group row",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                      className: "text-bold col-xl-2 col-md-3 col-4 col-form-label text-right",
+                      htmlFor: "dimension",
+                      children: "Dimension"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 132,
+                      columnNumber: 37
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "flex-direction-column",
+                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                        className: "form-group row",
+                        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                          className: "col-xl-4 col-md-3 col-4 col-form-label text-right",
+                          htmlFor: "longueur",
+                          children: "Longueur"
+                        }, void 0, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 135,
+                          columnNumber: 41
+                        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                          className: "col-xl-8 col-md-9 col-8",
+                          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("input", {
+                            className: "form-control",
+                            id: "longueur",
+                            type: "text",
+                            value: longueur
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 137,
+                            columnNumber: 45
+                          }, this)
+                        }, void 0, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 136,
+                          columnNumber: 41
+                        }, this)]
+                      }, void 0, true, {
+                        fileName: _jsxFileName,
+                        lineNumber: 134,
+                        columnNumber: 37
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                        className: "form-group row",
+                        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                          className: "col-xl-4 col-md-3 col-4 col-form-label text-right",
+                          htmlFor: "largeur",
+                          children: "Largeur"
+                        }, void 0, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 141,
+                          columnNumber: 41
+                        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                          className: "col-xl-8 col-md-9 col-8",
+                          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("input", {
+                            className: "form-control",
+                            id: "largeur",
+                            type: "text",
+                            value: largeur
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 143,
+                            columnNumber: 45
+                          }, this)
+                        }, void 0, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 142,
+                          columnNumber: 41
+                        }, this)]
+                      }, void 0, true, {
+                        fileName: _jsxFileName,
+                        lineNumber: 140,
+                        columnNumber: 37
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                        className: "form-group row",
+                        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("label", {
+                          className: "col-xl-4 col-md-3 col-4 col-form-label text-right",
+                          htmlFor: "hauteur",
+                          children: "Hauteur"
+                        }, void 0, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 147,
+                          columnNumber: 41
+                        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                          className: "col-xl-8 col-md-9 col-8",
+                          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("input", {
+                            className: "form-control",
+                            id: "hauteur",
+                            type: "text",
+                            value: hauteur
+                          }, void 0, false, {
+                            fileName: _jsxFileName,
+                            lineNumber: 149,
+                            columnNumber: 45
+                          }, this)
+                        }, void 0, false, {
+                          fileName: _jsxFileName,
+                          lineNumber: 148,
+                          columnNumber: 41
+                        }, this)]
+                      }, void 0, true, {
+                        fileName: _jsxFileName,
+                        lineNumber: 146,
+                        columnNumber: 37
+                      }, this)]
+                    }, void 0, true, {
+                      fileName: _jsxFileName,
+                      lineNumber: 133,
+                      columnNumber: 37
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 131,
+                    columnNumber: 33
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 108,
+                  columnNumber: 37
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 107,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+                xl: "4",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+                  className: "bg-gray-light",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardHeader"], {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 158,
+                    columnNumber: 41
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardBody"], {
+                    children: "PHOTO ICI"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 159,
+                    columnNumber: 41
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardFooter"], {}, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 162,
+                    columnNumber: 41
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 157,
+                  columnNumber: 37
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 156,
+                columnNumber: 33
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 106,
+              columnNumber: 29
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+              className: "text-right",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("button", {
+                className: "btn btn-secondary",
+                type: "button",
+                color: "info",
+                children: "Vu 3D"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 167,
+                columnNumber: 33
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 166,
+              columnNumber: 29
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 104,
+            columnNumber: 25
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 17
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 13
+      }, this);
+    }
+  }]);
+
+  return InfoMachine;
+}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (InfoMachine);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Machine/ShowMachine.js":
+/*!***********************************************!*\
+  !*** ./src/components/Machine/ShowMachine.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../firebase */ "./src/firebase.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert */ "./node_modules/sweetalert/dist/sweetalert.min.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Common/Sparklines */ "./src/components/Common/Sparklines.js");
+/* harmony import */ var _Common_Scrollable__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Common/Scrollable */ "./src/components/Common/Scrollable.js");
+/* harmony import */ var _Layout_ContentWrapper__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Layout/ContentWrapper */ "./src/components/Layout/ContentWrapper.js");
+/* harmony import */ var _HeadingMenu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./HeadingMenu */ "./src/components/Machine/HeadingMenu.js");
+/* harmony import */ var _InfoMachine__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./InfoMachine */ "./src/components/Machine/InfoMachine.js");
+/* harmony import */ var _ActiviteMachine__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ActiviteMachine */ "./src/components/Machine/ActiviteMachine.js");
+/* harmony import */ var _StatMachine__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./StatMachine */ "./src/components/Machine/StatMachine.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+
+var _jsxFileName = "J:\\OSC2021\\code\\Template\\reactjs-seed\\reactjs-seed\\src\\components\\Machine\\ShowMachine.js";
+
+/**affiche les informations d'une machine */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ShowMachine = /*#__PURE__*/function (_Component) {
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(ShowMachine, _Component);
+
+  var _super = Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__["default"])(ShowMachine);
+
+  function ShowMachine(props) {
+    var _this;
+
+    Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ShowMachine);
+
+    _this = _super.call(this, props);
+
+    _this.toggleStep = function (activeStep) {
+      return function () {
+        var progessValue1 = [100, 0, 0];
+        var progessValue2 = [0, 100, 0];
+        var progessValue3 = [0, 0, 100];
+
+        if (_this.state.activeStep !== activeStep) {
+          _this.setState({
+            activeStep: activeStep
+          });
+        }
+
+        switch (_this.state.activeStep) {
+          case '1':
+            _this.setState({
+              progressValue: progessValue1
+            });
+
+            break;
+
+          case '2':
+            _this.setState({
+              progressValue: progessValue2
+            });
+
+            break;
+
+          case '3':
+            _this.setState({
+              progressValue: progessValue3
+            });
+
+            break;
+        }
+      };
+    };
+
+    _this.state = {
+      machine: {},
+      modele: {},
+      key: '',
+      path: [{
+        label: 'Home',
+        value: '/dashboard_machine'
+      }, {
+        label: 'Machine',
+        value: '/list_machine'
+      }, {
+        label: 'Visualiser',
+        value: ''
+      }],
+      activeStep: '1',
+      progressValue: [100, 0, 0]
+    };
+    return _this;
+  }
+
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ShowMachine, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      var ref = _firebase__WEBPACK_IMPORTED_MODULE_5__["default"].firestore().collection('machines').doc(this.props.match.params.id);
+      ref.get().then(function (doc) {
+        if (doc.exists) {
+          var _doc$data = doc.data(),
+              r_modele = _doc$data.r_modele; // informations sur le modele  
+
+
+          var refModele = _firebase__WEBPACK_IMPORTED_MODULE_5__["default"].firestore().collection('modeles').doc(r_modele);
+          refModele.get().then(function (docModele) {
+            if (docModele.exists) {
+              _this2.setState({
+                modele: docModele.data()
+              });
+            } else {
+              console.log("Aucun modele!");
+            }
+          });
+
+          _this2.setState({
+            machine: doc.data(),
+            key: doc.id,
+            isLoading: false
+          }); //heading nav
+
+
+          _this2.state.path.push({
+            label: _this2.state.machine.nom,
+            value: ''
+          });
+        } else {
+          console.log("No such document!");
+        }
+      });
+    }
+  }, {
+    key: "delete",
+    value: function _delete(id) {
+      var _this3 = this;
+
+      sweetalert__WEBPACK_IMPORTED_MODULE_6___default()({
+        title: 'Etes-vous sûre?',
+        text: 'La suppression de cette machine est une opération irréversible!',
+        icon: 'warning',
+        buttons: true,
+        dangerMode: true
+      }).then(function (willDelete) {
+        if (willDelete) {
+          _firebase__WEBPACK_IMPORTED_MODULE_5__["default"].firestore().collection('machines').doc(id).delete().then(function () {
+            console.log("Document successfully deleted!");
+            sweetalert__WEBPACK_IMPORTED_MODULE_6___default()("Supprimée!", "Cette GreenBox a bien été supprimée", "success").then(function (value) {
+              _this3.props.history.push("/list_machine/");
+            });
+          }).catch(function (error) {
+            console.error("Error removing document: ", error);
+            sweetalert__WEBPACK_IMPORTED_MODULE_6___default()("Desolée!", "Cette GreenBox n'a pu être supprimée, veuillez vérifier vos paramètres de connexion", "success");
+          });
+        } else {
+          _this3.props.history.push("/show_machine/" + id);
+        }
+      });
+    }
+  }, {
+    key: "render",
+    value:
+    /** TAF
+     * Afficher la date
+     * Rendre ça en Tabpane
+     */
+    function render() {
+      var level1 = this.state.progressValue[0];
+      var level2 = this.state.progressValue[1];
+      var level3 = this.state.progressValue[2];
+      console.log(level1);
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_Layout_ContentWrapper__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_HeadingMenu__WEBPACK_IMPORTED_MODULE_12__["default"], {
+          path: this.state.path
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 162,
+          columnNumber: 13
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+          className: "d-flex ml-auto col-xl-2 mb-4",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+            className: "ml-auto",
+            color: "info",
+            onClick: this.delete.bind(this, this.state.key),
+            children: "Editer"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 164,
+            columnNumber: 17
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+            className: "ml-auto",
+            color: "danger",
+            onClick: this.delete.bind(this, this.state.key),
+            children: "Supprimer"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 167,
+            columnNumber: 17
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 163,
+          columnNumber: 13
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+          className: "card-default",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardHeader"], {
+            className: "pb-0",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+                className: "col pr-0",
+                children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Progress"], {
+                  color: "info",
+                  value: level1
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 174,
+                  columnNumber: 52
+                }, this), " "]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 174,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+                className: "col p-0",
+                children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Progress"], {
+                  color: "info",
+                  value: level2
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 175,
+                  columnNumber: 51
+                }, this), " "]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 175,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+                className: "col pl-0",
+                children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Progress"], {
+                  color: "info",
+                  value: level3
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 176,
+                  columnNumber: 52
+                }, this), " "]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 176,
+                columnNumber: 25
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 173,
+              columnNumber: 21
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 172,
+            columnNumber: 17
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardBody"], {
+            className: "pt-0 pb-0",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Nav"], {
+              tabs: true,
+              justified: true,
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+                  tag: "div",
+                  className: classnames__WEBPACK_IMPORTED_MODULE_7___default()({
+                    active: this.state.activeStep === '1'
+                  }),
+                  onClick: this.toggleStep('1'),
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("h4", {
+                    className: "text-left my-2",
+                    children: "Information"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 187,
+                    columnNumber: 33
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 182,
+                  columnNumber: 29
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 181,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+                  tag: "div",
+                  className: classnames__WEBPACK_IMPORTED_MODULE_7___default()({
+                    active: this.state.activeStep === '2'
+                  }),
+                  onClick: this.toggleStep('2'),
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("h4", {
+                    className: "text-left my-2",
+                    children: "Activite"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 196,
+                    columnNumber: 33
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 191,
+                  columnNumber: 29
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 190,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavItem"], {
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["NavLink"], {
+                  tag: "div",
+                  className: classnames__WEBPACK_IMPORTED_MODULE_7___default()({
+                    active: this.state.activeStep === '3'
+                  }),
+                  onClick: this.toggleStep('3'),
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("h4", {
+                    className: "text-left my-2",
+                    children: "Statistiques"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 205,
+                    columnNumber: 33
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 200,
+                  columnNumber: 29
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 199,
+                columnNumber: 25
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 180,
+              columnNumber: 21
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 179,
+            columnNumber: 17
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["TabContent"], {
+            activeTab: this.state.activeStep,
+            className: "pt-0",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["TabPane"], {
+              id: "tabPane1",
+              tabId: "1",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_InfoMachine__WEBPACK_IMPORTED_MODULE_13__["default"], {
+                etat: this.state
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 213,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+                className: "d-flex",
+                children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+                  className: "ml-auto",
+                  color: "primary",
+                  onClick: this.toggleStep('2'),
+                  children: "Next"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 215,
+                  columnNumber: 29
+                }, this)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 214,
+                columnNumber: 25
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 212,
+              columnNumber: 21
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["TabPane"], {
+              id: "tabPane2",
+              tabId: "2",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_ActiviteMachine__WEBPACK_IMPORTED_MODULE_14__["default"], {
+                etat: this.state
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 226,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+                className: "d-flex",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+                  outline: true,
+                  color: "primary",
+                  onClick: this.toggleStep('1'),
+                  children: "Precedent"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 228,
+                  columnNumber: 29
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+                  className: "ml-auto",
+                  color: "success",
+                  onClick: this.toggleStep('3'),
+                  children: "Next"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 231,
+                  columnNumber: 29
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 227,
+                columnNumber: 25
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 225,
+              columnNumber: 21
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["TabPane"], {
+              id: "tabPane3",
+              tabId: "3",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(_StatMachine__WEBPACK_IMPORTED_MODULE_15__["default"], {
+                etat: this.state
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 242,
+                columnNumber: 25
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])("div", {
+                className: "d-flex",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+                  outline: true,
+                  color: "primary",
+                  onClick: this.toggleStep('3'),
+                  children: "Precedent"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 244,
+                  columnNumber: 29
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+                  className: "ml-auto",
+                  color: "success",
+                  children: "Terminer"
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 247,
+                  columnNumber: 29
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 243,
+                columnNumber: 25
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 241,
+              columnNumber: 21
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 210,
+            columnNumber: 17
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 171,
+          columnNumber: 13
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_16__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 257,
+          columnNumber: 13
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 161,
+        columnNumber: 9
+      }, this);
+    }
+  }]);
+
+  return ShowMachine;
+}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (ShowMachine);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Machine/StatMachine.js":
+/*!***********************************************!*\
+  !*** ./src/components/Machine/StatMachine.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createSuper.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../firebase */ "./src/firebase.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! sweetalert */ "./node_modules/sweetalert/dist/sweetalert.min.js");
+/* harmony import */ var sweetalert__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(sweetalert__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Common/Sparklines */ "./src/components/Common/Sparklines.js");
+/* harmony import */ var _Common_Scrollable__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Common/Scrollable */ "./src/components/Common/Scrollable.js");
+/* harmony import */ var _Layout_ContentWrapper__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Layout/ContentWrapper */ "./src/components/Layout/ContentWrapper.js");
+/* harmony import */ var _HeadingMenu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./HeadingMenu */ "./src/components/Machine/HeadingMenu.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+
+var _jsxFileName = "J:\\OSC2021\\code\\Template\\reactjs-seed\\reactjs-seed\\src\\components\\Machine\\StatMachine.js";
+
+
+
+
+
+
+
+
+
+
+
+var StatMachine = /*#__PURE__*/function (_Component) {
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(StatMachine, _Component);
+
+  var _super = Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createSuper__WEBPACK_IMPORTED_MODULE_3__["default"])(StatMachine);
+
+  function StatMachine(props) {
+    Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, StatMachine);
+
+    return _super.call(this, props);
+  }
+
+  Object(J_OSC2021_code_Template_reactjs_seed_reactjs_seed_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(StatMachine, [{
+    key: "render",
+    value: function render() {
+      var _this$props$etat$mach = this.props.etat.machine,
+          nom = _this$props$etat$mach.nom,
+          zone = _this$props$etat$mach.zone,
+          localite = _this$props$etat$mach.localite,
+          level = _this$props$etat$mach.level,
+          created = _this$props$etat$mach.created,
+          status = _this$props$etat$mach.status;
+
+      var _Object = new Object(localite),
+          pays = _Object.pays,
+          lieu = _Object.lieu,
+          ville = _Object.ville,
+          quartier = _Object.quartier;
+
+      var _this$props$etat$mode = this.props.etat.modele,
+          libelle = _this$props$etat$mode.libelle,
+          description = _this$props$etat$mode.description,
+          dimension = _this$props$etat$mode.dimension,
+          capacite = _this$props$etat$mode.capacite;
+
+      var _Object2 = new Object(dimension),
+          longueur = _Object2.longueur,
+          largeur = _Object2.largeur,
+          hauteur = _Object2.hauteur;
+
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+        className: "pt-3 mb-3",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+          className: "card-body",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("h4", {
+              className: "bg-gray-dark pl-2",
+              children: [" ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("em", {
+                className: "icon-tag"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 44,
+                columnNumber: 68
+              }, this), " Activite"]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 44,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__["default"], {
+              tag: "span",
+              options: {
+                type: "line",
+                height: "100",
+                width: "100%",
+                lineWidth: "3",
+                lineColor: "#23b7e5",
+                chartRangeMin: "0",
+                spotColor: "#888",
+                minSpotColor: "#23b7e5",
+                maxSpotColor: "#23b7e5",
+                fillColor: "#e5f2fa",
+                highlightLineColor: "#fff",
+                spotRadius: "5",
+                resize: true
+              },
+              values: "2,4,5,6,10,7,8,5,7,7,11,8,6,9,11,9,13,14,12,16",
+              className: "sparkline text-center"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 45,
+              columnNumber: 33
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 43,
+            columnNumber: 29
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+          className: "card-body",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
+            className: "text-center",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+              xs: "4",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__["default"], {
+                options: {
+                  type: "pie",
+                  height: "60",
+                  sliceColors: ['#edf1f2', '#23b7e5']
+                },
+                values: "20,80",
+                className: "sparkline"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 68,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                className: "mt-3",
+                children: "D\xE9pots effectu\xE9s"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 75,
+                columnNumber: 37
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 67,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+              xs: "4",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__["default"], {
+                options: {
+                  type: "pie",
+                  height: "60",
+                  sliceColors: ['#edf1f2', '#27c24c']
+                },
+                values: "60,40",
+                className: "sparkline"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 78,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                className: "mt-3",
+                children: "Tickets imprim\xE9s"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 85,
+                columnNumber: 37
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 77,
+              columnNumber: 33
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+              xs: "4",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__["default"], {
+                options: {
+                  type: "pie",
+                  height: "60",
+                  sliceColors: ['#edf1f2', '#ff902b']
+                },
+                values: "90,10",
+                className: "sparkline"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 88,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                className: "mt-3",
+                children: " Alertes "
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 95,
+                columnNumber: 37
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 87,
+              columnNumber: 33
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 66,
+            columnNumber: 29
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 25
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+          xl: "4",
+          className: "fixed",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+            className: "card b",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+              className: "card-body bb",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                className: "card border-0",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "card-body bg-purple",
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "h5 mt-0",
+                    children: "Ce mois ci"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 106,
+                    columnNumber: 33
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__["default"], {
+                    values: "1,3,4,7,5,9,4,4,7,5,9,6,4",
+                    options: {
+                      type: "line",
+                      height: "80",
+                      width: "100%",
+                      lineWidth: "2",
+                      lineColor: "#dddddd",
+                      spotColor: "#bbbbbb",
+                      fillColor: "",
+                      highlightLineColor: "#fff",
+                      spotRadius: "3",
+                      resize: true
+                    }
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 108,
+                    columnNumber: 33
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "text-center",
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(_Common_Sparklines__WEBPACK_IMPORTED_MODULE_9__["default"], {
+                      options: {
+                        barColor: "#fff",
+                        height: "50",
+                        barWidth: "6",
+                        barSpacing: "6"
+                      },
+                      values: "1,3,4,7,5,9,4,4,7,5,9,6,4"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 123,
+                      columnNumber: 36
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 122,
+                    columnNumber: 33
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 105,
+                  columnNumber: 29
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "card-body bg-inverse",
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                    className: "row text-center",
+                    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "col-4",
+                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                        className: "m-0 h3",
+                        children: "150,080"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 135,
+                        columnNumber: 41
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                        className: "m-0 text-muted",
+                        children: "Bouteilles collect\xE9es"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 136,
+                        columnNumber: 41
+                      }, this)]
+                    }, void 0, true, {
+                      fileName: _jsxFileName,
+                      lineNumber: 134,
+                      columnNumber: 37
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "col-4",
+                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                        className: "m-0 h3",
+                        children: "12,000"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 139,
+                        columnNumber: 41
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                        className: "m-1 text-muted",
+                        children: "Tickets imprim\xE9s"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 140,
+                        columnNumber: 41
+                      }, this)]
+                    }, void 0, true, {
+                      fileName: _jsxFileName,
+                      lineNumber: 138,
+                      columnNumber: 37
+                    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                      className: "col-4",
+                      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                        className: "m-0 h3",
+                        children: "5"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 143,
+                        columnNumber: 41
+                      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+                        className: "m-0 text-muted",
+                        children: "Collectes"
+                      }, void 0, false, {
+                        fileName: _jsxFileName,
+                        lineNumber: 144,
+                        columnNumber: 41
+                      }, this)]
+                    }, void 0, true, {
+                      fileName: _jsxFileName,
+                      lineNumber: 142,
+                      columnNumber: 37
+                    }, this)]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 133,
+                    columnNumber: 33
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 132,
+                  columnNumber: 29
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 104,
+                columnNumber: 29
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 102,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+              className: "card-body bb",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                className: "d-flex align-items-center",
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("span", {
+                  "text-bold": true,
+                  children: " Taux de remplissage "
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 153,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("div", {
+                  className: "w-100",
+                  children: level < 50 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Progress"], {
+                    color: "success",
+                    value: level,
+                    children: [" ", level, "% "]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 156,
+                    columnNumber: 41
+                  }, this) : level < 75 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Progress"], {
+                    color: "warning",
+                    value: level,
+                    children: [" ", level, "% "]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 158,
+                    columnNumber: 41
+                  }, this) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Progress"], {
+                    color: "success",
+                    value: level,
+                    children: [" ", level, "% "]
+                  }, void 0, true, {
+                    fileName: _jsxFileName,
+                    lineNumber: 160,
+                    columnNumber: 41
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 154,
+                  columnNumber: 33
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 152,
+                columnNumber: 29
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 151,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("table", {
+              className: "table",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tbody", {
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Date d'ajout"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 169,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 168,
+                    columnNumber: 37
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: " 02/05/21 15:45:23 "
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 171,
+                    columnNumber: 37
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 167,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Temperature"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 175,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 174,
+                    columnNumber: 37
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: " 23\xB0C"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 177,
+                    columnNumber: 37
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 173,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Humidite"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 181,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 180,
+                    columnNumber: 37
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: "62hs"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 183,
+                    columnNumber: 37
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 179,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Quantite de d\xE9chets intrus"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 187,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 186,
+                    columnNumber: 37
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: "140"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 189,
+                    columnNumber: 37
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 185,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Issues"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 193,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 192,
+                    columnNumber: 37
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: "39"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 195,
+                    columnNumber: 37
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 191,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Files"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 199,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 198,
+                    columnNumber: 37
+                  }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: "87"
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 201,
+                    columnNumber: 37
+                  }, this)]
+                }, void 0, true, {
+                  fileName: _jsxFileName,
+                  lineNumber: 197,
+                  columnNumber: 33
+                }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("tr", {
+                  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("td", {
+                    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("strong", {
+                      children: "Recent files"
+                    }, void 0, false, {
+                      fileName: _jsxFileName,
+                      lineNumber: 205,
+                      columnNumber: 41
+                    }, this)
+                  }, void 0, false, {
+                    fileName: _jsxFileName,
+                    lineNumber: 204,
+                    columnNumber: 37
+                  }, this)
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 203,
+                  columnNumber: 33
+                }, this)]
+              }, void 0, true, {
+                fileName: _jsxFileName,
+                lineNumber: 166,
+                columnNumber: 29
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 165,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("p", {
+              className: "text-right",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_13__["jsxDEV"])("a", {
+                className: "btn btn-link",
+                href: "",
+                children: "Voir les statistiques"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 211,
+                columnNumber: 29
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 210,
+              columnNumber: 25
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 101,
+            columnNumber: 21
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 99,
+          columnNumber: 25
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 13
+      }, this);
+    }
+  }]);
+
+  return StatMachine;
+}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (StatMachine);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ })
+
+}]);
+//# sourceMappingURL=25.chunk.js.map
