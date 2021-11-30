@@ -12,4 +12,4 @@ cd ../green_deploy
 echo "deploying on heroku..."
 git add .
 git commit -m "update"
-git push heroku master
+git push heroku main
